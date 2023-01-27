@@ -10,7 +10,7 @@ header{
   background-color: rosybrown;
 }
 ul,li{
-  list-style-type:" 💻"
+  list-style-type:" 💻";
 }
 
 header{
@@ -104,9 +104,10 @@ img{
   outline: none !important; 
   -webkit-tap-highlight-color: transparent;
   
-
+  
 }.wrapper { 
-  display: inline-flex; list-style: none;
+  display: inline-flex; 
+  list-style: none;
   
 }.wrapper .icon { 
   position: relative;
@@ -169,3 +170,27 @@ color: #ffffff;
 .wrapper .twitter:hover .tooltip::before { background: #1DA1F2; 
 color: #ffffff;
 }
+
+
+
+.box{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+image{
+  width: 250px;
+  box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1 );
+  transition: .2s;
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+}
+  
+  .image:hover{
+    transform: scale(1.5);
+    z-index: 2;
+  }
